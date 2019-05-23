@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>BOOKSHARE</h1>
+    <p class="lead">La biblioteca virtual más grande del mundo. Desde BOOKSHARE tendrá acceso gratuito a miles de textos literarios, científicos y técnicos.</p>
+  
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Usuario","Index", "USUARIOs")</h2>
+        <p>
+          REGISTRA TU USUARIO Y CONTRASEÑA
+        </p>
+        
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Mas informacion &raquo;</a></p>
+    </div>
+    
+   
+        <h2>@Html.ActionLink("Libro", "Index", "LIBROes")</h2>
+        <p>INGRESA LOS DATOS DEL LIBRO QUE REQUIERES.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Mas informacion &raquo;</a></p>
+   
+        <h2>@Html.ActionLink("Biblioteca", "Index", "BIBLIOTECAs")</h2>
+        <p></p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Mas informacion &raquo;</a></p>
+   
+</div>
